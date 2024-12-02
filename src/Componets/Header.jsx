@@ -14,10 +14,10 @@ function Header(){
                 </div>
 
                 <div className="nabvar_links">
-                    <Link>Home</Link> 
-                    <Link>Store</Link>
-                    <Link>About</Link>
-                    <Link>Contact</Link>
+                    <Link to='/'>Home</Link> 
+                    <Link to='/Store'>Store</Link>
+                    <Link to='/About'>About</Link>
+                    <Link to='/Contact'>Contact</Link>
                 </div>
 
             
