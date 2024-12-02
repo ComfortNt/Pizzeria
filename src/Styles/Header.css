@@ -20,9 +20,11 @@
 
 .navbar a{
 
-    color: white;
     margin: 1.5rem;
+
+    color: #ffffff; 
     font-size: 1.3rem;
+    
     cursor: pointer;
     text-decoration: none;
   
