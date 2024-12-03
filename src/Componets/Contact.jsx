@@ -9,6 +9,12 @@ function Contact(){
 
         <div className="contact">
 
+                <div className="contact-image">
+                </div>
+
+                <div className="contact-form">
+
+                </div>
         </div>
     );
 };
