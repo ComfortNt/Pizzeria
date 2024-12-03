@@ -7,6 +7,7 @@
     
     display: flex;
     flex: 50%;
+
 }
 
 .contact-image{
@@ -20,5 +21,30 @@
 
 .contact-form{
     width: 100%;
-    
+    text-align: center;
+}
+
+.contact-form h1{
+
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.contact-form input{
+    border: none;
+    width: 55%;
+    border-bottom: 1px solid #121619;
+    outline: none;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+.contact-form textarea{
+
+    width: 60%;
+    height: 10rem;
+    outline: none;
+    padding: 1rem;
+    margin: 1rem;
 }
