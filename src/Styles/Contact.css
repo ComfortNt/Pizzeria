@@ -43,6 +43,7 @@
 .contact-form textarea{
 
     width: 60%;
+    resize: none;
     height: 10rem;
     outline: none;
     padding: 1rem;
