@@ -39,3 +39,31 @@
 .home button:hover{
     opacity: 0.8;
 }
+
+
+@media (max-width : 700px) {
+    
+    .home{
+        padding: 5rem 2.5rem;
+        
+    }
+
+    .home h1{
+        font-size: 4rem;
+        font-style: italic;
+    }
+    
+    .home h2{
+        font-size: 2rem;
+    }
+
+    .home button{
+
+        padding: 1rem;
+        margin-top: 0.5rem;
+        border: none;
+        border-radius: 1rem;
+    
+    }
+
+}

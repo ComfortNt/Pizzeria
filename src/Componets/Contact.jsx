@@ -19,8 +19,8 @@ function Contact(){
 
                         <input type="email"  placeholder='Email...'/> <br />   
 
-                        <textarea name="comments" id="" placeholder='Leave a coment...'></textarea>
-                        <input type="Submit" value="Send" />
+                        <textarea name="comments" id="" placeholder='Leave a coment...'></textarea> <br />
+                        <button type="submit">Send Comment</button>
                     </form>
 
                 </div>

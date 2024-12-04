@@ -47,4 +47,40 @@
     outline: none;
     padding: 1rem;
     margin: 1rem;
+    
+}
+
+.contact-form button{
+
+   cursor: pointer;
+   border: 0;
+   padding: 1rem 4rem;
+   
+}
+
+
+
+@media (max-width : 700px) {
+    
+
+    .contact{
+        padding: auto;
+    
+    }
+
+
+    .contact-form h1{
+
+        padding: 0;
+        font-size: 2rem;
+    }
+
+    .contact-form button{
+
+        cursor: pointer;
+        border: 0;
+        padding: 1rem 2rem;
+        
+     }
+
 }
