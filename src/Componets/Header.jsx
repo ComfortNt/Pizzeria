@@ -29,10 +29,10 @@ function Header(){
                     <Link to='/Store'>Store</Link>
                     <Link to='/About'>About</Link>
                     <Link to='/Contact'>Contact</Link>
-                    <button onClick={ ()=> navbar()}><FaTimes/></button>
+                    <button className='nav-btn' onClick={ ()=> navbar()}><FaTimes/></button>
                 </nav>
 
-                <button onClick={ ()=> navbar()}><FaBars/></button>
+                <button className='nav-btn nav-close-btn' onClick={ ()=> navbar()}><FaBars/></button>
             
         </div>
     )

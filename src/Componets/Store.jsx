@@ -14,15 +14,14 @@ function Store(){
               <div className="store-grid">
                 
                         {
-                        List.map( (item , key) =>{ return(
-
+                        List.map( (item , key) =>{  return(
+                            
                     <div className="store-card">
       
                           <div className="store-image" style={{backgroundImage:`url(${item.Image})`}}>
                           </div>
-
                           <div className="store-price">
-                            <h3>{item.name}</h3>
+                            <h3>{item.name} </h3>
                             <p>${item.price}</p>
                           </div>
                           <button>Add to Cart</button>
