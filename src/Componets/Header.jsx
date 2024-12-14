@@ -25,10 +25,10 @@ function Header(){
                 </div>
 
                 <nav ref={styleRef}>
-                    <Link to='/'>Home</Link> 
-                    <Link to='/Store'>Store</Link>
-                    <Link to='/About'>About</Link>
-                    <Link to='/Contact'>Contact</Link>
+                    <Link to='/' onClick={ ()=> navbar()}>Home</Link> 
+                    <Link to='/Store' onClick={ ()=> navbar()}>Store</Link>
+                    <Link to='/About'  onClick={ ()=> navbar()}>About</Link>
+                    <Link to='/Contact' onClick={ ()=> navbar()}>Contact</Link>
                     <button className='nav-btn' onClick={ ()=> navbar()}><FaTimes/></button>
                 </nav>
 

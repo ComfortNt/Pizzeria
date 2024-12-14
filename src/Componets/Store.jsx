@@ -24,7 +24,6 @@ function Store(){
                             <h3>{item.name} </h3>
                             <p>${item.price}</p>
                           </div>
-                         
                           <button>Add to Cart</button>
                         </center>
                     </div>
